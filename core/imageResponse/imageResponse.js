@@ -22,5 +22,8 @@ module.exports = {
             var randomIndex = (Math.floor(Math.random() * 17));
             message.channel.send("**GOD I LOVE MINIONS**", { files: ["./core/imageResponse/resources/minion/minion"+randomIndex+".png"]});
         }
+        else if (message.content == "amongus"){
+            message.channel.send("**WHEN THE IMPOSTER IS SUS**", { files: ["./core/imageResponse/resources/memes/amongus.gif"]});    
+        }
     }
 }
