@@ -3,7 +3,7 @@
  * @returns a message
  */
 module.exports = {
-    keywords: ["cs", "keikaku", "benis", "borf", "fortnite", "bing boing"],
+    keywords: ["cs", "keikaku", "benis", "borf", "fortnite", "bing boing", "ow"],
     response: function (message) {
         console.log("stringResponse for "+message.member.user.tag);
         if (message.content.toLowerCase().includes("cs")) {
@@ -29,7 +29,7 @@ module.exports = {
         } else if (message.content == "bing boing") {
             message.channel.send("https://media.discordapp.net/attachments/648400331583258631/680164093885415438/Bing_Boing_Bing_Bing_Boing_Bing_Bing-1-1.mp4");
         }  else if (message.content == "ow?") {
-            message.channel.send("ow?");
+            message.channel.send("<@854274106044317719>");
         }
     }
 };
