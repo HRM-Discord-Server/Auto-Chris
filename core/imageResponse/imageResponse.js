@@ -3,7 +3,7 @@
 * @params string message
 */
 module.exports = {
-    keywords: ["dab", "kaj", "epic", "our lord and savior", "minion", "festive", "amogus],
+    keywords: ["dab", "kaj", "epic", "our lord and savior", "minion", "festive", "amogus"],
     response: function(message){
         console.log("Image Response For "+message.member.user.tag);
         if (message.content == "dab"){
