@@ -3,7 +3,7 @@
 * @params string message
 */
 module.exports = {
-    keywords: ["dab", "kaj", "epic", "our lord and savior", "minion", "festive"],
+    keywords: ["dab", "kaj", "epic", "our lord and savior", "minion", "festive", "amogus],
     response: function(message){
         console.log("Image Response For "+message.member.user.tag);
         if (message.content == "dab"){
@@ -22,7 +22,7 @@ module.exports = {
             var randomIndex = (Math.floor(Math.random() * 17));
             message.channel.send("**GOD I LOVE MINIONS**", { files: ["./core/imageResponse/resources/minion/minion"+randomIndex+".png"]});
         }
-        else if (message.content == "amongus"){
+        else if (message.content == "amogus"){
             message.channel.send("**WHEN THE IMPOSTER IS SUS**", { files: ["./core/imageResponse/resources/memes/amongus.gif"]});    
         }
     }
